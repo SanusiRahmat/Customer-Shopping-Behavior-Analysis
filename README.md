@@ -1,42 +1,38 @@
-# Customer-Shopping-Behavior-Analysis
-Data analytics project showcasing customer shopping behavior using Python, SQL and PowerBI.
-Data Analytics Project: End-to-End Analysis & Dashboard
-Overview
+ Customer-Shopping-Behavior-Analysis*
+*Data analytics project showcasing customer shopping behavior using Python, SQL, and Power BI.*
+This project demonstrates my end-to-end data analytics workflow — from raw data ingestion to insights communication. I used Python for data exploration and cleaning, SQL for querying and analysis, Power BI for visualization, and Gamma to create a final presentation.
 
-This project demonstrates an end-to-end data analytics workflow, covering data loading, exploratory data analysis (EDA), data cleaning, SQL querying, dashboard development, and reporting.
-The goal is to extract actionable insights from raw data and present them clearly through visualizations and reports suitable for business decision-making.
+The goal of this project is to showcase my ability to work across multiple tools, analyze data effectively, and communicate insights clearly to both technical and non-technical audiences.
 
 Dataset
 
-Source: Public
+The dataset was loaded and processed using Python.
 
-Format: CSV / Excel
+It contains structured data suitable for exploratory data analysis, cleaning, and SQL-based querying.
 
-Description:
-The dataset contains structured records used to analyze trends, patterns, and key performance indicators (KPIs). It includes both numerical and categorical variables relevant to the analysis objectives.
+Data quality issues such as missing values, inconsistencies, and formatting errors were identified and handled during preprocessing.
+
 
 Tools & Technologies
 
-Python: Data loading, cleaning, and EDA
+Python (Pandas, NumPy, Matplotlib/Seaborn)
 
-Libraries: Pandas, NumPy, Matplotlib, Seaborn
+SQL (PostgreSQL, MySQL, SQL Server)
 
-SQL: Data querying and aggregation
+Power BI (Data modeling & dashboard creation)
 
-PostgreSQL / MySQL / SQL Server
+Gamma (Presentation design)
 
-Power BI: Interactive dashboard and data visualization
+Jupyter Notebook
 
-Gamma: Presentation (PPT) creation
-
-Jupyter Notebook: Analysis documentation
+Git/GitHub
 
 Project Steps
 1. Data Loading
 
 Imported the dataset into Python using Pandas.
 
-Verified data structure, data types, and basic statistics.
+Performed initial inspection to understand structure, size, and data types.
 
 2. Exploratory Data Analysis (EDA)
 
@@ -44,104 +40,46 @@ Analyzed distributions, trends, and relationships.
 
 Identified missing values, outliers, and inconsistencies.
 
-Generated visual summaries to guide cleaning and analysis.
+Generated summary statistics and visual insights.
 
-3. Data Cleaning
+3. Data Cleaning & Preparation
 
 Handled missing values and duplicates.
 
-Standardized column names and data formats.
+Standardized column names and formats.
 
-Prepared clean data for SQL analysis and visualization.
+Prepared clean datasets for SQL analysis and visualization.
 
 4. SQL Analysis
 
-Loaded cleaned data into PostgreSQL/MySQL/SQL Server.
+Loaded the cleaned data into PostgreSQL, MySQL, and SQL Server.
 
-Wrote SQL queries for:
+Wrote SQL queries to answer business questions and extract insights.
 
-Aggregations and KPIs
+Used aggregations, filtering, joins, and calculated metrics.
 
-Trend analysis
+5. Dashboard Development (Power BI)
 
-Ranking and filtering
+Built an interactive Power BI dashboard.
 
-Validated SQL results against Python analysis.
+Created KPIs, charts, and filters for easy exploration.
 
-5. Dashboard Development
-
-Built an interactive Power BI dashboard to visualize:
-
-Key metrics and trends
-
-Comparisons across categories
-
-Filters for dynamic exploration
+Designed the dashboard with clarity and usability in mind.
 
 6. Reporting & Presentation
 
-Created a structured analytical report summarizing:
+Documented key insights and findings in a written report.
 
-Objectives
+Designed a professional presentation using Gamma to communicate results clearly.
 
-Methodology
-
-Key insights
-
-Recommendations
-
-Designed a professional PPT using Gamma for stakeholder presentation.
+Focused on storytelling, insights, and actionable conclusions.
 
 Dashboard
 
-The Power BI dashboard provides an interactive overview of the analysis, enabling users to:
+The Power BI dashboard provides:
 
-Track key performance indicators
+High-level KPIs for quick insight
 
-Identify trends and patterns
+Interactive filters and drill-downs
 
-Drill down into specific segments
-
-(Include screenshots or a Power BI link if available)
-
-Results & Insights
-
-Identified key trends and performance drivers within the dataset.
-
-Highlighted areas of improvement and opportunities based on data patterns.
-
-Delivered insights in a clear, visual, and decision-oriented format.
-
-How to Run the Project
-Python Analysis
-
-Clone this repository
-
-git clone <repository-link>
-
-
-Install required dependencies
-
-pip install pandas numpy matplotlib seaborn
-
-
-Open and run the Jupyter Notebook
-
-jupyter notebook
-
-SQL Analysis
-
-Import the cleaned dataset into PostgreSQL/MySQL/SQL Server.
-
-Run the provided SQL scripts to reproduce queries and results.
-
-Power BI Dashboard
-
-Open the .pbix file in Power BI Desktop.
-
-Refresh data connections if required.
-
-Author
-
-Rahmat Sanusi
-Data Analytics Enthusiast | Python • SQL • Power BI
+Clear visual representation of trends and patterns
