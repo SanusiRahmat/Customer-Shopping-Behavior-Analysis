@@ -1,5 +1,6 @@
  Customer-Shopping-Behavior-Analysis*
 *Data analytics project showcasing customer shopping behavior using Python, SQL, and Power BI.*
+
 This project demonstrates my end-to-end data analytics workflow — from raw data ingestion to insights communication. I used Python for data exploration and cleaning, SQL for querying and analysis, Power BI for visualization, and Gamma to create a final presentation.
 
 The goal of this project is to showcase my ability to work across multiple tools, analyze data effectively, and communicate insights clearly to both technical and non-technical audiences.
